@@ -1,8 +1,5 @@
 package jhonatas.autoupdater;
 
-import java.net.MalformedURLException;
-import java.net.URL;
-
 public class UpdateHandler {
 
 	
@@ -50,6 +47,7 @@ public class UpdateHandler {
 			    if(!autoUpdater.performDownload()) {
 			    	System.out.println("Erro ao tentar efetuar o download da atualização");
 			    }
+			  
 	           // String java = System.getProperty("java.home") + "/bin/java";
 	            //String jarPath = new File(updaterClass.getProtectionDomain().getCodeSource().getLocation().toURI()).getCanonicalPath();
 			  //  String jarPath = new File(updaterClass.getProtectionDomain().getCodeSource().getLocation().toURI()).getCanonicalPath();
